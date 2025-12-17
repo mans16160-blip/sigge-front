@@ -1,6 +1,6 @@
 **GETTING STARTED**
 #
-create a .env file in the outer catalog and entwr the follwoing
+create a .env file in the outer catalog and enter the following
 
 
 REACT_APP_DEV_URL=http://localhost
