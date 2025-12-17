@@ -10,7 +10,7 @@ REACT_APP_KEYCLOAK_URL=https://keycloaksiggem.com
 REACT_APP_KEYCLOAK_REALM=siggem
 REACT_APP_KEYCLOAK_CLIENT_ID=siggem-front
 
-run npm i follwoed by npm start
+run npm i followed by npm start
 
 open the app on localhost:3000
 
