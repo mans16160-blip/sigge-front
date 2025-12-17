@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 20px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 200px;
+  table-layout: fixed;
+}
+.tableContainer {
+  max-height: 500px; /* limit the visible height */
+  overflow-y: auto;
+
+  margin-top: 1rem;
+}
+thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+thead th {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  background-color: #878787;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+mark {
+  background-color: yellow;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+tbody td {
+  padding: 12px 15px;
+  color: #333;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-container input[type="text"]:focus {
+  border-color: #357ab8;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+}
+
+.wideContainer {
+  width: 867px;
+}
+.tableWrapper {
+  max-height: 500px; /* limit the visible height */
+  overflow-y: auto;
+
+  margin-top: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead,
+.scrollBody {
+  display: block;
+}
+
+.scrollBody {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+thead tr {
+  background-color: #4a90e2;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  min-width: 100px; /* Prevent collapse on short content */
+}
+th:nth-child(1),
+td:nth-child(1) {
+  width: 20%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 30%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%;
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 15%;
+}
+th:nth-child(5),
+td:nth-child(5) {
+  width: 15%;
+}

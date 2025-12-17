@@ -1,0 +1,28 @@
+/* Se till att allt fyller hela höjden */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grundbakgrund – kan bytas ut om någon sida vill ha annan färg */
+body {
+  background-color: #f7f7f7;
+  font-family: Roboto, sans-serif; /* matchar MUI */
+}
+
+/* Behåll om du vill använda .App för wrapper */
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
