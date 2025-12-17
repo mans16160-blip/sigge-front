@@ -1,4 +1,4 @@
-##GETTING STARTED
+**GETTING STARTED
 create a .env file in the outer catalog and entwr the follwoing
 
 
